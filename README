@@ -1,0 +1,61 @@
+andrewid: dcabahug
+name: Dylan Cabahug-Almonte
+https://drive.google.com/file/d/1BQ3w7ZlbUWAov5F1VJ1SU-nziEzxg1eS/view
+
+WELCOME TO POKER 112
+
+note: in my video I missed the fact that I had a straight and beat the ai 
+    sorry for the confusion
+
+POKER 112 is an iteration of the game Texas hold'em, each player is dealt two 
+cards face downas their hand. Over several betting rounds, five more cards 
+are dealt face up in the middle of the table. These face-up cards are called 
+the 'community cards.' Each player is free to use the community cards in 
+combination with their hole cards to build a five-card poker hand.
+
+please refer to https://bicyclecards.com/how-to-play/texas-holdem-poker for 
+more details regarding the rules of the game.
+
+POKER 112 has two options:
+    Multiplayer (pass and play:
+      - challenge your friends to a game a 6 player poker where each person
+        takes turns
+    1v1 against an ai:
+      - callenge an ai that bets, calls, and folds based on the strength of its hand
+
+HOW TO RUN:
+under the 'main' folder run the 'main' file using 'cmd + b'
+
+shortcuts: 'shift + s' shows the hands of every player
+           'Esc' returns to main menu (note- does not save your previous game)
+
+
+sources used
+- Noam Brown's 'Superhuman AI for heads-up no-limit poker Libratus beats top professionals'
+    https://www.youtube.com/watch?v=2dX0lwaQRX0 
+- Catus Kev's 5 card evaluator
+    https://suffe.cool/poker/evaluator.html
+- Neat ai's 'Neat AI does Cactus Kevs Poker Hand Evaluator Complete'
+    https://www.youtube.com/watch?v=TM_sMACxSzY
+
+python syntaxes and built in modules used
+    dataclasses:
+      https://docs.python.org/3/library/dataclasses.html
+      https://docs.python.org/3/tutorial/datastructures.html
+      https://www.youtube.com/watch?v=vBH6GRJ1REM&t=21s
+    yeild and generators:
+      https://docs.python.org/3/reference/simple_stmts.html
+      https://docs.python.org/3/reference/expressions.html
+      https://www.youtube.com/watch?v=tmeKsb2Fras&t=230s
+    itertools:
+      https://docs.python.org/3/library/itertools.html
+    enum:
+      https://docs.python.org/3/howto/enum.html
+    os and sys:
+      https://docs.python.org/3/library/os.html
+      https://docs.python.org/3/library/sys.html
+
+pictures used
+  https://acbl.mybigcommerce.com/52-playing-cards/
+  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCB7GD51tLRWenXnApYFNaTID4o71VMByZzA&usqp=CAU
+

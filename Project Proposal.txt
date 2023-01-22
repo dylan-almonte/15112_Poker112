@@ -1,0 +1,41 @@
+112 Hold'em 
+
+112 Hold'em will be similar to texas Hold'em 112 progjects in the past. In my 
+iteration of the game Texas hold'em, each player is dealt two cards face down
+as their hand. Over several betting rounds, five more cards are dealt face up 
+in the middle of the table. These face-up cards are called the 
+'community cards.' Each player is free to use the community cards in 
+combination with their hole cards to build a five-card poker hand. Since the
+use of sockets for multiplayer is disallowed for the MVP, the player would only
+be going against a single AI using a Monte Carlo algorithim to mimic an actual
+person in play. I plan to construct a win percentage calculator for the player 
+to use against a range of hands the opponent may have. In addition, I would like
+to implement multiplayer into my game for the final product.
+
+Functions and files that I plan to use to organize my project:
+    - Table folder has a card, deck and board files
+        - card file is an object with attributes of a classic playing cards 
+            i.e. rank and suit
+        - deck file is also an object with with attributes of a 52 card deck
+        - board file is to store the community cards and economy of the game
+    - evaluator file will be a custon module to evaluate the board and hand and
+        output the hand ranking i.e. two pair, flush, etc.
+
+    - Game folder will organize players, hand history, and possible actions a
+        player can do
+
+
+The trickiest part of the project will be evaluating the board and hand as well
+as the game ai. I plan to convert cards into a 32 bit integar using prime 
+numbers for rankings to uniquely distinguish attributes of the cards to 
+evaulate the best possible hand commination using bitwise operations. This
+would heavily reduce memory load of the game to open the possiblities of more 
+complex features like multiplayer and a game ai.
+
+TP 1, Nov 20th.
+    - complete a suitable card and deck class working evaluator 
+    - complete a base game of poker with working rounds with 2 manual players
+TP 2, Nov 30th.
+    - complete economy 
+
+I will be using GitHub to save my work using a personal repository
